@@ -135,7 +135,7 @@ contract Dealership{
         
     }
     /**
-    @dev Buyer can purchase a used ccar and their info will be added to carOwners array. Removes the car
+    @dev Buyer can purchase a used car and their info will be added to carOwners array. Removes the car
     from usedCarsForSale array.
      */
     function buyUsedCar(uint256 _carIndex) external payable noReentrancy{
